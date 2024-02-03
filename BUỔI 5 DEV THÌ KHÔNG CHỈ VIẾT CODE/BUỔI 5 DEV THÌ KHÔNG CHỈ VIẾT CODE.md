@@ -21,18 +21,18 @@
 
 >- **`Repository`** Có thể coi nó là 1 dự án, chứa toàn bộ source code, là nơi sẽ ghi lại trạng thái của thư mục và file từ khi bạn khởi tạo đến hiện tại. Nếu repository được lưu trên máy tính của bạn, nó được gọi là **`local repository`**, còn nếu nó được lưu ở trên các server chuyên cung cấp dịch vụ về git nó được gọi là **`remote repository`**. Hiện nay có một số Git server phổ biến như là Github, GitLab, Bitbucket,…
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Repository.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Repository.png)
 
 ### Branch
 >- Là cái dùng để phân nhánh và ghi lại luồng của lịch sử phát triển code của dự án. Branch đã phân nhánh sẽ không ảnh hưởng đến các branch khác nên có thể tiến hành nhiều thay đổi đồng thời trong cùng 1 repository.
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Branch.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Branch.png)
 
 ### Commit
 
 >- Một repository thì chứa rất nhiều commit, commit đó là những lần bạn sửa code, thêm, xóa file, thay đổi code đều được tính là  commit, những commit đó được lưu vào repository.
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Commit.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Commit.png)
 
 ### Merge
 
@@ -146,8 +146,6 @@ UML cung cấp một ngôn ngữ chung để giao tiếp giữa các thành viê
     + Mô tả sự phản hồi của hệ thống.
     + Cơ sở cho các sơ đồ thành phần và triển khai.
 
-![Alt text]()
-
 Class :
 - Đại diện cho Obj
 - Có các thuộc tính và func.
@@ -177,17 +175,17 @@ Bạn có thể hỏi chuyên gia, học hệ thống tương tự, hỏi khách
 
 #### Các kí hiệu:
 - Nút Start
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Start.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Start.png)
 - Nút End
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/End.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/End.png)
 - Activity
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Activity.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Activity.png)
 - Branch
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Branch1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Branch1.png)
 - Fork
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Fork.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Fork.png)
 - Join
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/Join.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%205%20DEV%20TH%C3%8C%20KH%C3%94NG%20CH%E1%BB%88%20VI%E1%BA%BET%20CODE/Join.png)
 
 [Activity Diagram](https://iviettech.vn/blog/1066-activity-diagram-ban-ve-hoat-dong.html)
 
