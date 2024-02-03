@@ -76,7 +76,7 @@ public class Bike extends Moto {
 Hay nói cách khác class trong Java không có tính đa kế thừa
 
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B4-1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%204%20M%E1%BB%8CI%20TH%E1%BB%A8%20%C4%90%E1%BB%80U%20L%C3%80%20%C4%90%E1%BB%90I%20T%C6%AF%E1%BB%A2NG/B4-1.png)
 
 - VD Đơn kế thừa :
 
@@ -228,4 +228,4 @@ Thông thường run time và compile time được nhắc tới khi nói tới 
 
 Khác nhau giữa Overloading và Overriding
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B4-2.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%204%20M%E1%BB%8CI%20TH%E1%BB%A8%20%C4%90%E1%BB%80U%20L%C3%80%20%C4%90%E1%BB%90I%20T%C6%AF%E1%BB%A2NG/B4-2.png)
