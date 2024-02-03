@@ -5,7 +5,7 @@ Khi một chương trình Java được thực thi, nó sẽ yêu cầu hệ đi
 
 Sau đó, nó sẽ chia vùng không gian đó thành 4 vùng nhớ (`memory segment`) để lưu trữ.
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B3-1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%203%20C%C3%81CH%20JAVA%20L%C6%AFU%20TR%E1%BB%AE%20D%E1%BB%AE%20LI%E1%BB%86U/B3-1.png)
 >- `Vùng nhớ code` (code segment), tất cả mã chương trình (machine code) được lưu ở đây khi chương trình được thực thi.
 
 >- `Vùng nhớ data` (data segment), lưu trữ những dữ liệu chung của chương trình như các biến static, constant,… những biến dữ liệu mà được sinh ra khi chương trình bắt đầu thực thi và chỉ được giải phóng khi chương trình kết thúc.
@@ -88,7 +88,7 @@ Kết quả cho ra như sau :
 ### **4. Wrapper**
 - Wrapper là một lớp đặc biệt cung cấp cơ chế để chuyển đổi các kiểu dữ liệu nguyên thủy (primitive types) thành các đối tượng (objects) và ngược lại.
 - Trong java, có 8 lớp Wrapper chúng được thiết kế trong gói java.lang.
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B3-2.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%203%20C%C3%81CH%20JAVA%20L%C6%AFU%20TR%E1%BB%AE%20D%E1%BB%AE%20LI%E1%BB%86U/B3-2.png)
 
 - Tạo ra đối tượng từ Wrapper class trong Java
 
