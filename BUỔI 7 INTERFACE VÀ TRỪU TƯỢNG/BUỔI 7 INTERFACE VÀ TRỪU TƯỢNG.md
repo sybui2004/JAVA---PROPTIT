@@ -54,7 +54,7 @@
 
 - So sánh Interface và Class:
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B7-1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%207%20INTERFACE%20V%C3%80%20TR%E1%BB%AAU%20T%C6%AF%E1%BB%A2NG/B7-1.png)
 
 - VD sử dụng interface:
 >- Shape.java
@@ -220,8 +220,8 @@
 
 ## **`3. So sánh Interface và Abstract Class`**
 
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B7-2.png)
-![Alt text](https://github.com/sybui2004/JAVA/blob/main/B7-3.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%207%20INTERFACE%20V%C3%80%20TR%E1%BB%AAU%20T%C6%AF%E1%BB%A2NG/B7-2.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%207%20INTERFACE%20V%C3%80%20TR%E1%BB%AAU%20T%C6%AF%E1%BB%A2NG/B7-3.png)
 
 
 <span style="color:red">
