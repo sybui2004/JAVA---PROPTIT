@@ -2,20 +2,25 @@
 
 ## **I. Làm quen với Exception: Checked và Unchecked Exception, Error**
 
-####1. **Exception** (ngoại lệ)
+1. **Exception** (ngoại lệ)
  - Là một tình trạng bất thường, là một sự kiện xảy ra trong quá trình thực thi một chương trình Java, nó làm phá vỡ flow (luồng xử lý) bình thường của một chương trình, thậm chí chết chương trình. Nó là một đối tượng được ném ra tại runtime.
 
 - Các loại Exception:
     + **Checked** : là các lớp extends từ lớp Throwable ngoại trừ RuntimeException và Error. Các Checked Exception được kiểm tra tại compile-time. Loại exception này không thể bỏ qua được trong quá trình compile, bắt buộc ta phải handle nó. Ví dụ: IOException, FileNotFoundException, NoSuchFieldException, ….
-    ![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B9-1.png)]
-    ![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B9-2.png)]
+  
+    ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%209%20LU%C3%94N%20C%C3%93%20NGO%E1%BA%A0I%20L%E1%BB%86%2C%20X%E1%BB%AC%20L%C3%8D%20NGO%E1%BA%A0I%20L%E1%BB%86/B9-1.png)
+
+    ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%209%20LU%C3%94N%20C%C3%93%20NGO%E1%BA%A0I%20L%E1%BB%86%2C%20X%E1%BB%AC%20L%C3%8D%20NGO%E1%BA%A0I%20L%E1%BB%86/B9-2.png)
+  
     + **Unchecked** : Các lớp extends từ RuntimeException được gọi là Unchecked Exception. Các Exception này thường xảy ra khi lỗi đó không lường trước được. Loại exception này xảy ra tại thời điểm thực thi chương trình, nó cũng có thể gọi là runtime exceptions đó là programming bugs, lỗi logic của chương trình… Loại exception này được bỏ qua trong quá trình compile, không bắt buộc ta phải handle nó. Ví dụ: NullPointerException, NumberFormatException, ArrayIndexOutOfBoundsException, DivideByZeroException, …
-    ![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B9-3.png)]
+    ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%209%20LU%C3%94N%20C%C3%93%20NGO%E1%BA%A0I%20L%E1%BB%86%2C%20X%E1%BB%AC%20L%C3%8D%20NGO%E1%BA%A0I%20L%E1%BB%86/B9-3.png)
+
     + **Error** : là những vấn đề nghiêm trọng liên quan đến môi trường thực thi của ứng dụng hoặc hệ thống mà lập trình viên không thể kiểm soát. Nó thường làm chết chương trình. Lớp Error định nghĩa các ngoại lệ mà không thể bắt (catch) từ chương trình. Ví dụ: OutOfMemoryError, VirtualMachineError, and StackOverflowError, …
     Ví dụ đệ quy vô tận:
-    ![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B9-4.png)]
+    ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%209%20LU%C3%94N%20C%C3%93%20NGO%E1%BA%A0I%20L%E1%BB%86%2C%20X%E1%BB%AC%20L%C3%8D%20NGO%E1%BA%A0I%20L%E1%BB%86/B9-4.png)
 
-####2. Một số Exception:
+
+2. Một số Exception:
     - Checked Exceptions : 
         + IOException: Ngoại lệ liên quan đến file input / output.
         + SQLException: Ngoại lệ liên quan đến cú pháp SQL.
@@ -153,11 +158,11 @@ java.lang.ArrayIndexOutOfBoundsException: 5
 ```
 
 ## **IV. Cây phân cấp Exception, phân biệt throw và throws**
-####1. Cây phân cấp Exception
+1. Cây phân cấp Exception
 
-![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B9-5.png)]
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%209%20LU%C3%94N%20C%C3%93%20NGO%E1%BA%A0I%20L%E1%BB%86%2C%20X%E1%BB%AC%20L%C3%8D%20NGO%E1%BA%A0I%20L%E1%BB%86/B9-5.png)
 
-####2. Phân biệt throw và throws
+2. Phân biệt throw và throws
 
 - **Throw**:
   + Nằm bên trong hàm/phương thức.
