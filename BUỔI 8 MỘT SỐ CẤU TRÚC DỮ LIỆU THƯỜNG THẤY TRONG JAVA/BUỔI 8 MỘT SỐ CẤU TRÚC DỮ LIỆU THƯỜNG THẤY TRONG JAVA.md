@@ -88,7 +88,7 @@ C++
 
 >- là một **`tập hợp các class và interface`** dùng để hỗ trợ trong việc thao tác lưu trữ và quản lý nhóm đối tượng dữ liệu trong ứng dụng Java
 
-![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B8-2.png)](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-2.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-2.png)
 
 
 ***`3.1. List`***
@@ -112,7 +112,7 @@ C++
 ```
 >- Các phương thức khác của List ngoài những phương thức nó kế thừa từ Collection
 
-![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B8-1.png)](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-1.png)
 
 - VD:
 ```java
@@ -172,7 +172,7 @@ Set setC = new TreeSet();
 
 - Phương thức của Set trong java
 
-![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B8-3.png)](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-3.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-3.png)
 
 
 >- Chúng ta có thể cover một tập hợp Set thành List bằng phương thức addAll()
@@ -190,13 +190,13 @@ list.addAll(set);
 
 ***`3.3.Queue`***
 
-![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B8-4.png)](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-4.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-4.png)
 
 >- được sử dụng để lưu trữ các phần tử được xử lý theo thứ tự FIFO (First In First Out).
 
 - Phương thức của Queue trong java
 
-![Alt text][(https://github.com/sybui2004/JAVA/blob/main/B8-5.png)](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-5.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%208%20M%E1%BB%98T%20S%E1%BB%90%20C%E1%BA%A4U%20TR%C3%9AC%20D%E1%BB%AE%20LI%E1%BB%86U%20TH%C6%AF%E1%BB%9CNG%20TH%E1%BA%A4Y%20TRONG%20JAVA/B8-5.png)
 
 <!-- ```java
 import java.util.PriorityQueue;
