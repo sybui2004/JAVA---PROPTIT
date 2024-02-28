@@ -41,8 +41,8 @@ File file = new File("C:\\data\\input-file.txt");
 - Ghi dữ liệu:
     + [OutputStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/OutputStream.html)
     + [Writer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/Writer.html)
-- ![Alt text]()
-- ![Alt text]()
+- ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2010%20NH%E1%BA%ACP%20XU%E1%BA%A4T%20FILE%2C%20UNIT%20TEST/B10-1.jpg)
+- ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2010%20NH%E1%BA%ACP%20XU%E1%BA%A4T%20FILE%2C%20UNIT%20TEST/B10-2.jpg)
 
 ```java
 import java.io.File;
@@ -206,7 +206,7 @@ Chúng ta nhận được kết quả ở trên vì chương trình này không 
 
 Sau khi bật xác nhận(assert), chúng ta nhận được kết quả sau:
 
-- ![Alt text]()
+- ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2010%20NH%E1%BA%ACP%20XU%E1%BA%A4T%20FILE%2C%20UNIT%20TEST/B10-3.png)
 
 - Dạng khác:
     + assert condition : expression;
@@ -224,7 +224,7 @@ public class Main {
 ```
 Kết quả:
 
-- ![Alt text]()
+- ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2010%20NH%E1%BA%ACP%20XU%E1%BA%A4T%20FILE%2C%20UNIT%20TEST/B10-4.png)
 
 - Để kích hoạt xác nhận(Assertion) cho tất cả các lớp của chương trình Chính của chúng ta
 ```java
@@ -253,7 +253,7 @@ java -disableassertions arguments
 ## **III. Unit test**
 - là mức độ kiểm thử nhỏ nhất trong quy trình kiểm thử phần mềm. Unit test kiểm thử các đơn vị nhỏ nhất trong mã nguồn như method, class, module… Do đó Unit test nhằm kiểm tra mã nguồn của các chương trình, các chức năng riêng rẽ hoạt động đúng hay không.
 
-###JUnit
+1. **JUnit**
 - là một framework đơn giản dùng cho việc tạo các unit testing tự động, và chạy các test có thể lặp đi lặp lại. Nó chỉ là một phần của họ kiến trúc xUnit cho việc tạo các unit testing.
 - JUnit là một chuẩn trên thực tế cho unit testing trong Java.
 - JUnit test framework cung cấp cho chúng ta các gói lớp có sẵn cho phép chúng ta viết các phương thức test một cách dễ dàng.
@@ -263,8 +263,10 @@ java -disableassertions arguments
 - Một số định nghĩa trong mô hình tổng quát:
     + Test case : test case định nghĩa môi trường mà nó có thể sử dụng để chạy nhiều test khác nhau
     + TestSuite : testsuite là chạy một tập các test case và nó cũng có thể bao gồm nhiều test suite khác, test suite chính là tổ hợp các test.
-####Cách viết một test case
-Bạn muốn viết các unit test với JUnit. Việc đầu tiên bạn phải tạo một lớp con thừa kế từ lớp **junit.framework.TestCase**. Mỗi unit test được đại diện bởi một phương thức **testXXX()** bên trong lớp con của lớp TestCase.
+  
+2. **Cách viết một test case**
+- Việc đầu tiên bạn phải tạo một lớp con thừa kế từ lớp **junit.framework.TestCase**.
+- Mỗi unit test được đại diện bởi một phương thức **testXXX()** bên trong lớp con của lớp TestCase.
 
  + [Source](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/OutputStream.html)
 ## **IV. Tầm quan trọng của việc viết Unit test**
