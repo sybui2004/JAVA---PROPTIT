@@ -177,7 +177,7 @@ Khi cần sử dụng binary file và text file có thể lưu ý một số đi
 assert condition; 
 ```
 - Trong đó condition là một biểu thức boolean mà chúng ta giả sử là đúng khi chương trình thực thi.
-- heo mặc định, các xác nhận(assertions) bị tắt và bị bỏ qua trong thời gian chạy.
+- Theo mặc định, các xác nhận(assertions) bị tắt và bị bỏ qua trong thời gian chạy.
 
 Để bật assert , chúng ta sử dụng:
 
