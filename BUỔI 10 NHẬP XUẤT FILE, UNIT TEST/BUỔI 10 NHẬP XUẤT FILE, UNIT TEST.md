@@ -186,6 +186,8 @@ assert condition;
 hoặc
 
 ``java -enableassertions:arguments``
+
+**Edit configuration -> Modify options -> VM options -> viết -ea: NameofClass**
 - Khi các xác nhận(assert) được kích hoạt và điều kiện là true, chương trình sẽ thực thi bình thường. Nhưng nếu điều kiện được đánh giá là false trong khi các xác nhận(assert) được bật, JVM sẽ ném một dấu AssertionError và chương trình dừng ngay lập tức.
 
 ```java
@@ -265,9 +267,51 @@ java -disableassertions arguments
     + TestSuite : testsuite là chạy một tập các test case và nó cũng có thể bao gồm nhiều test suite khác, test suite chính là tổ hợp các test.
   
 2. **Cách viết một test case**
-- Việc đầu tiên bạn phải tạo một lớp con thừa kế từ lớp **junit.framework.TestCase**.
-- Mỗi unit test được đại diện bởi một phương thức **testXXX()** bên trong lớp con của lớp TestCase.
+- Project -> Maven
+- Trong file pom.xml thêm:
+```xml
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.10.2</version>
+    <scope>test</scope>
+</dependency>
+```
+- Tạo 1 class Test trong folder test/java:
+    VD:
+    ```java
+    import org.example.Main;
+    import org.junit.jupiter.api.Assertions;
+    import org.junit.jupiter.api.Test;
 
+    public class Test1 {
+        @Test
+        public void Test_1(){
+            int a = 2, b = 2;
+            int add = 3;
+            Main main = new Main();
+            Assertions.assertEquals(add, main.add(a, b));
+        }
+    }
+    ```
+
+- Trong class Main:
+    ```java
+    package org.example;
+
+    public class Main {
+        public int add (int a, int b)
+        {
+            return a + b;
+        }
+
+        public static void main(String[] args) {
+            System.out.println("Hello world!");
+        }
+    }
+    ```
+- Chạy file test
+- Chúng ta có thể tạo ra nhiều test giống như cph trong vscode.
  + [Source](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/OutputStream.html)
 ## **IV. Tầm quan trọng của việc viết Unit test**
 - Làm giảm tổng số lỗi trong quá trình code.
