@@ -296,3 +296,94 @@ Mô tả lại luồng sự kiện được xử lý :
 - Khi Model hoàn tất việc xử lý, View sẽ nhận kết quả từ Model thông qua Controller và hiển thị lại cho người dùng. 
 
 Ví dụ mô hình MVC:
+
+```java
+//Model.java
+public class Model {
+    private String userName;
+    private String password;
+    public Model() {
+    }
+    public Model(String userName, String password){
+        super();
+        this.userName = userName;
+        this.password = password;
+    }
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName){
+        this.userName = userName;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public void setPassword(String password){
+        this.password = password;
+    }
+
+}
+//View.java
+import java.util.Scanner;
+
+public class View {
+    public static Scanner sc = new Scanner(System.in);
+    public void showMessage(String msg){
+        System.out.println(msg);
+    }
+    public Model getUserInfo() {
+        Model user = new Model();
+        System.out.print("Username: ");
+        user.setUserName(sc.next());
+        System.out.print("Password: ");
+        user.setPassword(sc.next());
+        return user;
+    }
+}
+
+//Controller.java
+public class Controller {
+    private View view;
+    public Controller(View view){
+        this.view = view;
+    }
+    public void login(){
+        while(true){
+            Model user = view.getUserInfo();
+            if (checkLogin(user)){
+                view.showMessage("Success!");
+                break;
+            }else{
+                view.showMessage("Wrong username or password");
+            }
+        }
+    }
+
+    public boolean checkLogin(Model user){
+        if ((user.getUserName().equals("admin")) && user.getPassword().equals("admin")) return true;
+        return false;
+    }
+    public View getView(){
+        return view;
+    }
+    public void setView(View view){
+        this.view = view;
+    }
+}
+//MVC.java
+public class MVC {
+    public static void main(String[] args) {
+        View view = new View();
+        Controller controller = new Controller(view);
+        controller.login();
+    }
+}
+
+```
+Kết quả:
+```java
+Username: admin
+Password: admin
+Success!
+```
