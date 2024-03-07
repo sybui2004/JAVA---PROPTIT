@@ -257,7 +257,7 @@ public List<User> find(String name, String email) {
 - là một mẫu kiến trúc phần mềm để tạo lập giao diện người dùng trên máy tính.
 - chia thành ba phần được kết nối với nhau và mỗi thành phần đều có một nhiệm vụ riêng của nó và độc lập với các thành phần khác.
 - được sử dụng rộng rãi trong phát triển web, sự khác biệt được tùy chỉnh liên quan đến sự có mặt của server - client.
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2010%20NH%E1%BA%ACP%20XU%E1%BA%A4T%20FILE%2C%20UNIT%20TEST/B11-1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B11-1.png)
 
 - Các thành phần trong MVC:
     + Model : 
@@ -272,7 +272,7 @@ public List<User> find(String name, String email) {
         + Là thành phần trung gian giữa Model và View
         + Đảm nhận vai trò tiếp nhận yêu cầu từ người dùng, thông qua Model để lấy dữ liệu sau đó thông qua View để hiển thị cho người dùng
 - Luồng xử lý trong MVC:
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2010%20NH%E1%BA%ACP%20XU%E1%BA%A4T%20FILE%2C%20UNIT%20TEST/B11-2.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B11-2.png)
 
 1. Đầu tiên, client sẽ gửi một request tới server thông qua Controller.
 2. Controller tiếp nhận request, và xử lý luồng đi tiếp theo của yêu cầu. Trong trường hợp chỉ chuyển từ trang này sang trang khác mà không yêu cầu gửi và nhận dữ liệu thì lúc này Controller sẽ redirect(chuyển hướng) lại cho browser và kết thúc luồng. Lúc này luồng xử lý sẽ đi theo thứ tự 1-> 6 -> 7 -> 8.
