@@ -8,11 +8,11 @@
 > [!NOTE]
 > **API** là các phương thức, giao thức kết nối với các thư viện và ứng dụng khác. Nó là viết tắt của Application Programming Interface – giao diện lập trình ứng dụng. API cung cấp khả năng truy xuất đến một tập các hàm hay dùng. Và từ đó có thể trao đổi dữ liệu giữa các ứng dụng.
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-1.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-1.png)
 
 - Các phương thức phổ biến:
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-2.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-2.png)
 
 ## **II. JFrame, JButton, JLabel, JTextField, JTable, JList**
 
@@ -37,7 +37,7 @@ public class Main {
     }
 }
 ```
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-3.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-3.png)
 
 2. **JButton**
 - Được dùng để tạo ra một nút (button) có tên.
@@ -70,7 +70,7 @@ public class MyFrame extends JFrame {
 
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-4.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-4.png)
 
 
 ```java
@@ -98,7 +98,7 @@ public class MyFrame extends JFrame {
     }
 }
 ```
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-5.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-5.png)
 
 3. **JLabel**
 - là 1 GUI hiển thị 1 chuỗi văn bản hoặc 1 hình ảnh hoặc cả 2.
@@ -128,7 +128,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-6.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-6.png)
 
 ```java
 //Main.java
@@ -157,7 +157,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-7.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-7.png)
 
 4. **JTextField**
 - 1 GUI textbox có thể dùng để add, set hoặc get 1 text
@@ -188,7 +188,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-8.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-8.png)
 
 5. **JTable**
 
@@ -232,7 +232,7 @@ public class MyFrame extends JFrame {
 > [!NOTE]
 > JScrollPane được sử dụng để cung cấp cơ chế cuộn cho một component. Khi kích thước màn hình bị giới hạn chúng ta có thể sử dụng JScrollPane để hiển thị một component có kích thước lớn hoặc có thể thay đổi linh hoạt.
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-9.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-9.png)
 
 6. **JList**
 
@@ -267,7 +267,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-10.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-10.png)
 
 > [!NOTE]
 > JPanel là lớp container nhẹ đơn giản nhất, là một phần của gói java.swing. Nó có thể nhóm hoặc lưu trữ một tập hợp các thành phần lại với nhau.
@@ -327,7 +327,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-11.png)
+![Alt text]https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-11.png)
 
 2. **FlowLayout**
 
@@ -377,7 +377,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-12.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-12.pngg)
 
 3. **GridLayout**
 
@@ -427,7 +427,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-13.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-13.png)
 
 > [!NOTE]
 > GridLayout(int rows, int cols, int hgap, int vgap): hgap là khoảng cách các cột, vgap là khoảng cách các hàng.
@@ -487,7 +487,7 @@ public class MyFrame extends JFrame {
 
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-14.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-14.png)
 
 
 2. **Image**
@@ -529,7 +529,7 @@ public class ImagePanel extends JPanel {
 
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-15.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-15.png)
 
 > [!NOTE]
 > ImageIcon trong Java Swing là một lớp được sử dụng để hiển thị và quản lý hình ảnh trong các thành phần giao diện người dùng Swing. ImageIcon thường được sử dụng để hiển thị hình ảnh trong các thành phần như JLabel, JButton, và JMenuItem.
@@ -563,4 +563,4 @@ public class MyFrame extends JFrame {
 
 ```
 
-![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BU%E1%BB%94I%2011%20C%C3%81C%20NGUY%C3%8AN%20T%E1%BA%AEC%20THI%E1%BA%BET%20K%E1%BA%BE%2C%20M%C3%94%20H%C3%8CNH%20THI%E1%BA%BET%20K%E1%BA%BE/B12-16.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-16.png)
