@@ -1,4 +1,4 @@
-# **BUỔI 11: BUỔI 12 (FINAL) - THƯ VIỆN ĐỒ HOẠ SWING**
+# **BUỔI 12 (FINAL) - THƯ VIỆN ĐỒ HOẠ SWING**
 
 ## **I. Thư viện đồ hoạ Swing cơ bản**
 
