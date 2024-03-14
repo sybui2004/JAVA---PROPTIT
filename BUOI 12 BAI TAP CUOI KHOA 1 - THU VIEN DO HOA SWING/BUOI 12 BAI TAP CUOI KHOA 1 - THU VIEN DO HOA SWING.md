@@ -327,7 +327,7 @@ public class MyFrame extends JFrame {
 }
 ```
 
-![Alt text]https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-11.png)
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-11.png)
 
 2. **FlowLayout**
 
