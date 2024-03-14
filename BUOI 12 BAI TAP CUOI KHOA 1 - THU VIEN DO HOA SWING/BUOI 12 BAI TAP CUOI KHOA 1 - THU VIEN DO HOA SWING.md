@@ -563,4 +563,8 @@ public class MyFrame extends JFrame {
 
 ```
 
+<<<<<<< HEAD
 ![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-16.png)
+=======
+![Alt text](https://github.com/sybui2004/JAVA---PROPTIT/blob/main/BUOI%2012%20BAI%20TAP%20CUOI%20KHOA%201%20-%20THU%20VIEN%20DO%20HOA%20SWING/B12-16.png)
+>>>>>>> 9de62508a733c48dc00291f6d416658285540907
